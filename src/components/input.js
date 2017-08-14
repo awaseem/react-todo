@@ -1,0 +1,9 @@
+import React from 'react';
+
+export default function List(props) {
+  return (
+    <div>
+      <input type="text" value={props.value} onChange={props.onChange} />
+    </div>
+  );
+}
