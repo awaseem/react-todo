@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function List(props) {
+export default function Input(props) {
   return (
     <div>
       <input type="text" value={props.value} onChange={props.onChange} />
